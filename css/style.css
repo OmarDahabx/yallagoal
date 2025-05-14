@@ -202,6 +202,7 @@ main{
 /* ----------------------------footer------------------------------ */
 footer{
   background-color: #000;
+  height: 400px;
 }
 footer .leftFooterLinks i{
   font-size: 20px;
@@ -209,4 +210,105 @@ footer .leftFooterLinks i{
 }
 footer .leftFooterLinks a{
   margin-right: 20px;
+}
+footer .rightFooterBrand a{
+  text-decoration: none;
+}
+footer .midFooterLinks a{
+      text-decoration: none;
+      margin: 0px 10px;
+}
+footer .rightFooterBrand h2{
+    font-size: 44px;
+    color: #fff;
+
+}
+footer .upper-footer{
+    margin-top: 20px;
+    padding-bottom: 17px;
+    border-bottom: solid 1px #ffffff33;
+}
+
+footer .down-footer{
+    padding-top: 20px;
+    border-bottom: solid 1px #ffffff33;
+    padding-bottom: 20px;
+}
+footer .down-footer .left-down-footer{
+              border-right: solid 1px #ffffff33;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: normal;
+}
+footer .down-footer .left-down-footer .websitesLinks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer .down-footer .left-down-footer .websitesLinks img{
+        width: 70px;
+}
+footer .down-footer .left-down-footer h4{
+       text-align: center;
+    color: #fff;
+    margin-bottom: 27px;
+        font-size: 18px;
+    font-weight: 800;
+}
+
+/* ------=-0940128912u09r */
+.right-down-footer .fthRightdown{
+      display: flex;
+    flex-direction: column;
+    gap: 26px;
+    text-align: right;
+}
+.right-down-footer .fthRightdown h4{
+              color: #fff;
+        font-size: 18px;
+    font-weight: 800;
+}
+.right-down-footer .fthRightdown a{
+          color: #ffffffb3;
+          text-decoration: none;
+}
+
+.midRightDown{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    text-align: right;
+        margin-top: 49px;
+}
+.midRightDown a{
+    color: #ffffffb3;
+    text-decoration: none;
+}
+.rigRightDown{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    text-align: right;
+}
+.rigRightDown a{
+    color: #ffffffb3;
+    text-decoration: none;
+}
+.rigRightDown h4{
+        color: #fff;
+        font-size: 18px;
+    font-weight: 800;
+}
+.copyright{
+  padding-top: 20px;
+}
+.copyright h6{
+  color: #fff;
+    font-size: 17px;
+    text-align: center;
+}
+.footerr{
+  padding-bottom: 20px;
 }
